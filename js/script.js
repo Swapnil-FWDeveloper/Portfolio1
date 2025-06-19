@@ -1,6 +1,6 @@
 /* ============================== typing animation ============================ */
 var typed = new Typed(".typing", {
-  strings: ["", "Software Developer...", "Front-End Web Developer..."],
+  strings: ["", "Software Developer...", "Full Stack Developer..."],
   typeSpeed: 70,
   BackSpeed: 60,
   loop: false,
@@ -89,6 +89,6 @@ window.addEventListener("scroll", () => {
 
 function resume() {
   window.open(
-    "https://drive.google.com/drive/folders/1QC2pyNXDpPWHpfWlmfCUZIQkpKsa0E2y"
+    "https://drive.google.com/file/d/1vDzVkNXmvxjEDpCrq7qAfb1v398TXnRZ/view?usp=sharing"
   );
 }
