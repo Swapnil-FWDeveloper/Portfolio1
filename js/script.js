@@ -12,7 +12,7 @@ var typedName = new Typed(".name", {
   BackSpeed: 30,
   loop: false,
 });
-/* ============================== Aside ============================ */
+/* ============================== Aside =============================*/
 
 const nav = document.querySelector(".nav"),
   navList = nav.querySelectorAll("li"),
