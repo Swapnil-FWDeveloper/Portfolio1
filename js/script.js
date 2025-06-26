@@ -89,6 +89,6 @@ window.addEventListener("scroll", () => {
 
 function resume() {
   window.open(
-    "https://drive.google.com/file/d/1vDzVkNXmvxjEDpCrq7qAfb1v398TXnRZ/view?usp=sharing"
+    "https://drive.google.com/file/d/1TthzaTjwUdTtMTHgvgxih9P9Kk2SqUWm/view?usp=sharing"
   );
 }
