@@ -25,6 +25,60 @@ const skills = [
     icon_url: "https://img.icons8.com/?size=48&id=jD-fJzVguBmw&format=png",
     category: ["all", "frontend"],
   },
+  {
+    name: "Next JS",
+    icon_url:
+      "https://img.icons8.com/?size=100&id=yUdJlcKanVbh&format=png&color=000000",
+    category: ["all", "frontend"],
+  },
+  {
+    name: "Node JS",
+    icon_url: "https://img.icons8.com/?size=48&id=hsPbhkOH4FMe&format=png",
+    category: ["all", "backend"],
+  },
+  {
+    name: "Express JS",
+    icon_url:
+      "https://img.icons8.com/?size=100&id=SDVmtZ6VBGXt&format=png&color=000000",
+    category: ["all", "backend"],
+  },
+  {
+    name: "MongoDB",
+    icon_url:
+      "https://img.icons8.com/?size=100&id=8rKdRqZFLurS&format=png&color=000000",
+    category: ["all", "database"],
+  },
+  {
+    name: "SQL",
+    icon_url:
+      "https://img.icons8.com/?size=100&id=J6KcaRLsTgpZ&format=png&color=000000",
+    category: ["all", "database"],
+  },
+  {
+    name: "Python",
+    icon_url:
+      "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAh1BMVEVHcEwBVJc3caE2bJdKir3z2mL/6m05daZAfa5Jd5nsyUUqbKFHZ3flw0Towzv+2Uz842rmwTgANYDeuzlFgrL/6nD94WL20ETvxzf50T5Jh7lAfKxAf7E9eqv/5GX/4Fz/6HH/3VNFhbc1cKD/2kowapr/1Dj/10H+/v786a2dt851nL7c5OukoiX2AAAAHHRSTlMAf0dz/ovF/qRkVcoZX2noqUpnMo7r88Ww1sbqk9MnjgAAAR1JREFUKJFl0etygyAQBWCCEIJGozE1TWu9C8b2/Z+vsEscA+ef882RXSBky5nKKJL0TMJINrBhGOr6JwmYMrYCmQhfb8PfstYWhRhlgOvya3vCYBRgPWJPjAHSEwTsDeVpC9h8zfOc41RfjMES7p/jPF8/uq6r4DSwGocBQ2y4Qay5JcAsNk1zMZcW2iwNtW1rr2Yz4eyQg/UlkS9LDi4SrO/7AtGY5EeXCmr9NMWE4qDRscM0rjZNuiQEl0h3BLVJa7PKNxzI/ZrWd4ORHRTwVQNTqrBXlJgdLL79UqlP9yJSUg5WZbFNmmVZsXsZjqddbHTqvSffJmmVynx0p6nn8gwwdZMAFh6SOy6n1DbnW/eB9PDHcSnjotx//wNQ0jN2CWQnkAAAAABJRU5ErkJggg==",
+    category: ["all", "frontend"],
+  },
+  {
+    name: "Numpy",
+    icon_url:
+      "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAATlBMVEVHcExNlc9Nq89Nq89Nq89Nq89Nr89Nq89Nq89Nns9Nps9Nq89Nq89Nq89Nq89Nd89Nq89Nd89Nd89Ndc9Nd89Nd89Nd89Nd89Nd89Nd89FlH+4AAAAGnRSTlMAH11ouOwwrf4KFMZ8TZw81qrNXbn/UHjrjGxZf74AAAEJSURBVHgBrZJFggQxCEWBWPMz5X7/i05Iu+2a8no40G+ERfgbcj4E7z7jmE5FfHwD6pIAksMfa9M6fUCQXGyyKFi7FOwVN9j05jC0IFWp731zddkxXN+3UWPrG8Dl3gFRK+RhnIgNBUuoIWZtUstnOC/Las4tsEUmKmr+Dmdzzy5nx2gizMMdLh1hm7Q6DPIKB3vMDCukwoQ7XDqURxctrCDkRukK930Z+A5VwBFXOA7LPg1nGHwkdjnxDXbFtFoGL0zqHxMa6SiuC4Qwu5dSRuWCakEun+QB6rSPWkwNwrpUYXudC1YlHpeHUnxDj6LbHWqjryt0LSVFehfexlJKEtAn0Q5oQL+Qf6D1EW3rF4ehAAAAAElFTkSuQmCC",
+    category: ["all", "data-analysis"],
+  },
+  {
+    name: "Pandas",
+    icon_url:
+      "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMIAAAEDCAMAAABQ/CumAAAArlBMVEX///8MBFTzaEgLAlQAAEwAAEaLiqIAAEqPjqanprgAAEH5+fsAAETyXTiFhJ72lIH72dPzZEIAAE9WVHyAf5rd3OTp6e3i4uhdW4H4rqH5v7TzYDzyWTKVlKqtrLycm7C3tsXEw867ush1c5EAADQAADuop7gAAD5PTXloZohxcI46N2tDQXA4NWgxL2UrKGIkIF8dGFwVD1nyUiT96eX5u7DyTRz7z8f1jHdHRHNPg4UvAAACz0lEQVR4nO3dXXPSQBSA4SIkaRDQQqzYgqSmKNRvW7X9/3/MTi90hNnT3dkTdjd932vYk2cywwCTbI6Ooizr90wN8tAHZxeEGOo44Tj0wdkFIYYgxBCEGOo4YRn64OyC4FA1MVa981n4cIQPA2Mjr29jhyO09sEBQWkSBAgqkyBAUJkEAYLKJAgQVCZBgKAyCQIElUkQIKhMao2w0jr6RydBgKAyCQIElUkQIKhMggBBZRIECCqTIBgXLiDYT4IAQWVSOEI5mxvbeBHqzXy+3W6vrpqmqarJJD++b7lcru6rNQl5NjU29CKU/1bevXYp+6hKGBjf28/8CIXxtdNPLoQSAgQIEROcPpHiJHAWfAiXI2PriQPhczjCK6HTNAguCYT+l/QJX10I79MncBZaInyDEAHhO4QICD/SJ/RcCG+jJPQhQIDwsPIUggfh9oW5szQIixNj4zdpEMbPjJ27EAYQIEB4WLmAAAFCVwh7K0OAACFVwggCBAVCb+8aGwgQIECAkCThemxs4UR47kCoVQkvhW7SILjUBcLQvE/gOg3CRVMZa9IgOAUBgkoQIKgEAYJKEJ4W4VRo95ubGuGxDbzbu/g/UkKQGyTr9AnhzsKN9EM7DcJP4e+OXy6/2sIRzs7NfzotHBaGAAECBAgQIEDQJ1xACE/IIECAAAECBAgQukQQbkW8ToPwW7gh9DYNglMQIECAAAECBAgQIEB4UoR6MzN253ANRkBCKWxC7nL/QkiC0l0kECBAgAAhXoLSVuH7hOHU8MiMoljrEl4LOWwVvk+4m/334JI8//vcknK1u7AfwSUngk8QhCDYB0EIgn0QhCDYB0EIgn0QhCDYB0EIgn0QhCDYB0EIgn0QhCDYB0EIgn0QhCDYB0EIgn0QhCDYB0EIgn0QhCDYF8lW4T61uFV4NTFWpUE4WBBiCEIMQYghCDEEIYYgxBCEEP0B8xnSEGsee60AAAAASUVORK5CYII=",
+    category: ["all", "data-analysis"],
+  },
+
+  {
+    name: "Power-Bi",
+    icon_url:
+      "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Analysts_PBI?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=2000&qlt=99&fmt=png-alpha&fit=constrain",
+    category: ["all", "data-Analysis"],
+  },
 
   {
     name: "Chakra UI",
