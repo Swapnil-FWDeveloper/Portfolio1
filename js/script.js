@@ -86,7 +86,6 @@ for (let i = 0; i < section.length; i++) {
 window.addEventListener("scroll", () => {
   Arr1.classList.remove("show");
 });
-
 function resume() {
   window.open(
     "https://drive.google.com/file/d/1sB3tjOWTOVewdJfX_ShGAvHPvuCikDWq/view?usp=sharing"
